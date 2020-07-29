@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trix</title>
+    <link rel="icon" type="image/png" href="assets/svg/undraw_refreshing_beverage_td3r.svg" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="css/media.css" media="screen and (max-width: 768px)"> -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <style>
+      @media screen and (max-width: 768px){
+        body{
+          border: 10px solid orangered;
+        }
+      }
+    </style> -->
+  </head>
+  <body>
+    <i class="icon-menu burger-button" id="menuButton"></i>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <a href="/atjazz"><img src="assets/svg/undraw_refreshing_beverage_td3r.svg" height="50" alt="Logo de http://jsxnis.com" /><span class="title-page">Trix</span></a>
+        </figure>
+        <nav class="menu" id="menu">
+          <ol> 
+            <li>
+              <a class="link" href="#portafolio">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="#eventos">Experiencia</a>
+            </li>
+            <li>
+              <a class="link border" href="#contacto">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1>
+          A veces tienes que correr <br/> antes de caminar, avanza<br> hacia una <strong>identidad digital</strong>.
+        </h1>
+        <img class="hero-image" src="assets/svg/undraw_progressive_app_m9ms.svg" width="500" height="300" alt="imagen principal del sitio"> 
+      </div>
+    </section>
+    <section id="portafolio" class="portfolio">
+      <div class="container">
+        <h2>Portafolio (Proyectos Destacados)</h2>
+        <article class="project">
+            <div class="project-details">
+              <h3 class="project-title">Fangel</h3>
+              <h6 class="project-course">React JS / Firebase</h6>
+              <p class="project-date"><small><strong>Fecha:</strong> 06/07/2019</small></p>
+              <!-- <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p> -->
+              <p class="project-description">Fangel fue el resultado de 3 meses de trabajo
+                  para crear una red social de interacción entre personas. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo para proyectos futuros</p>
+            </div>
+            <figure class="project-imageContainer">
+              <img class="project-image" width="500" src="images/proyect_2.png" alt="Proyecto startup Fangel">
+            </figure>
+      </article>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">Cruz de Motupe</h3>
+          <h6 class="project-course">React JS</h6>
+          <p class="project-date"><small><strong>Fecha:</strong> 24/07/2020</small></p>
+          <!-- <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p> -->
+          <p class="project-description">Cruz de Motupe fue el resultado de 3 semanas de trabajo
+              para desarrollar la web que permita interactuar con sus seguidores y a su vez recibir donaciones.</p>
+        </div>
+        <figure class="project-imageContainer">
+          <img class="project-image" width="500" src="images/proyect_1.png" alt="Proyecto desarrollo web Motupe">
+        </figure>
+      </article>
+      <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Pynade</h3>
+            <h6 class="project-course">Digital Agency</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 06/07/2019</small></p>
+            <!-- <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p> -->
+            <p class="project-description">Pynade fue el resultado de algunas semanas de trabajo
+                para desarrollar una agencia de marketing digital de alto desempeño.</p>
+          </div>
+          <figure class="project-imageContainer">
+            <img class="project-image" width="500" src="images/proyect_3.png" alt="Proyecto Pynade digital agency">
+          </figure>
+        </article>
+      </div>
+      
+    </section>
+    
+    <div class="container">
+      <h2 class="event-list-title">Más sobre mi experiencia</h2>
+    </div>
+    <section id="eventos" class="event-list">
+      <div class="container">
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="assets/svg/undraw_redesign_feedback_48ti.svg" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">UX - UI</h3>
+            <p class="event-description">Liderazgo en equipos de trabajo relacionados al diseño y experiencia de usuario.</p>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="assets/svg/undraw_accept_tasks_po1c.svg" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Marketing Digital</h3>
+            <p class="event-description">Tengo experiencia con publicidad en redes sociales y marketing de contenidos para negocios locales en Perú.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="contacto" class="contact">
+      <div class="container">
+        <form action="/suscripcion/" class="form-email">
+          <h3 class="contacto_subtitle">¿Creamos algo juntos?</h3>
+          <small class="contacto_email">Envíame un correo:</small> <br>
+          <!-- <input type="text" placeholder="Déjame tu email" id="email" autocomplete="off">
+          <button>Envíame un correo a:kkk</button> -->
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/cloud9rimov" target="_blank" class="social-link icon-social__twitter"></a>
+          <a href="https://web.facebook.com/nelson.melgarpalomino/" target="_blank" class="social-link icon-social__facebook"></a>
+          <a href="https://github.com/jsxnis" target="_blank" class="social-link icon-social__github"></a>
+          <a href="https://instagram.com/cloud9rimov" target="_blank" class="social-link icon-social__instagram"></a>
+          <!-- <a href="https://soundcloud.com/efrainsavi" target="_blank" class="social-link icon-social__soundcloud"></a> -->
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p> Todos los derechos reservados &copy; 2020 <span>See in your mind <img src="assets/svg/cat.svg" width="40" alt="platzi"></span></p>
+        </div>
+        <div>
+          <p>
+            Designed with 💙 by <a href="https://web.facebook.com/nelson.melgarpalomino/">@drakembite</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+   <script src="./js/script.js"></script>
+  </body>
+</html>
